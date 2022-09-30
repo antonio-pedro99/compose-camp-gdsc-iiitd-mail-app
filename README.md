@@ -32,7 +32,7 @@ Getting Started
 
 Implementing
 ------------
-### 1. Build a Preview: MainActivity.kt
+#### 1. Build a Preview: MainActivity.kt
 ```
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
@@ -42,6 +42,107 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
+-------------------
+#### 3. Build a Preview: MainActivity.kt
+```
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun ReplyAppCompactPreview() {
+    ReplyTheme {
+       ReplyApp(windowSize = WindowWidthSizeClass.Compact)
+    }
+}
+```
+-------------------
+#### 3. Build a Preview: MainActivity.kt
+```
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun ReplyAppCompactPreview() {
+    ReplyTheme {
+       ReplyApp(windowSize = WindowWidthSizeClass.Compact)
+    }
+}
+```
+-------------------
+#### 4. Build a Preview: MainActivity.kt
+```
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun ReplyAppCompactPreview() {
+    ReplyTheme {
+       ReplyApp(windowSize = WindowWidthSizeClass.Compact)
+    }
+}
+```
+-------------------
+#### 5. Build a Preview: MainActivity.kt
+```
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun ReplyAppCompactPreview() {
+    ReplyTheme {
+       ReplyApp(windowSize = WindowWidthSizeClass.Compact)
+    }
+}
+```
+-------------------
+#### 6. Build a Preview: MainActivity.kt
+```
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun ReplyAppCompactPreview() {
+    ReplyTheme {
+       ReplyApp(windowSize = WindowWidthSizeClass.Compact)
+    }
+}
+```
+-------------------
+#### 7. Build a Preview: MainActivity.kt
+```
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun ReplyAppCompactPreview() {
+    ReplyTheme {
+       ReplyApp(windowSize = WindowWidthSizeClass.Compact)
+    }
+}
+```
+-------------------
+#### 8. Build a Preview: MainActivity.kt
+```
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun ReplyAppCompactPreview() {
+    ReplyTheme {
+       ReplyApp(windowSize = WindowWidthSizeClass.Compact)
+    }
+}
+```
+-------------------
+#### 9. Build a Preview: MainActivity.kt
+```
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun ReplyAppCompactPreview() {
+    ReplyTheme {
+       ReplyApp(windowSize = WindowWidthSizeClass.Compact)
+    }
+}
+```
+-------------------
+#### 10. Build a Preview: MainActivity.kt
+```
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun ReplyAppCompactPreview() {
+    ReplyTheme {
+       ReplyApp(windowSize = WindowWidthSizeClass.Compact)
+    }
+}
+```
+-------------------
+
 Creditis and License
 --------------------
 We used this app for educational Purpose only. All rights are served by Google Developer Team.
