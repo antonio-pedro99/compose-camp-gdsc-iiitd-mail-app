@@ -3,9 +3,11 @@ Reply App - Solution Code
 Starter Code for Android Basic with Compose sample App - Replay
 
 
-Screenshot
-------------
-<img src="screenshots/replau.gif">
+## Design & Screenshots
+
+<img src="screenshots/reply.gif"/>
+
+<img src="screenshots/medium_and_large_display.png">
 
 Introduction
 ------------
