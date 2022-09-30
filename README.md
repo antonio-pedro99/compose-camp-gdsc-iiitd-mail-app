@@ -42,7 +42,7 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
--------------------
+
 #### 3. Build a Preview: MainActivity.kt
 ```
 @Preview(showBackground = true, showSystemUi = true)
@@ -53,7 +53,7 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
--------------------
+
 #### 3. Build a Preview: MainActivity.kt
 ```
 @Preview(showBackground = true, showSystemUi = true)
@@ -64,7 +64,7 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
--------------------
+
 #### 4. Build a Preview: MainActivity.kt
 ```
 @Preview(showBackground = true, showSystemUi = true)
@@ -75,7 +75,7 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
--------------------
+
 #### 5. Build a Preview: MainActivity.kt
 ```
 @Preview(showBackground = true, showSystemUi = true)
@@ -86,7 +86,7 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
--------------------
+
 #### 6. Build a Preview: MainActivity.kt
 ```
 @Preview(showBackground = true, showSystemUi = true)
@@ -97,7 +97,7 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
--------------------
+
 #### 7. Build a Preview: MainActivity.kt
 ```
 @Preview(showBackground = true, showSystemUi = true)
@@ -108,7 +108,7 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
--------------------
+
 #### 8. Build a Preview: MainActivity.kt
 ```
 @Preview(showBackground = true, showSystemUi = true)
@@ -119,7 +119,7 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
--------------------
+
 #### 9. Build a Preview: MainActivity.kt
 ```
 @Preview(showBackground = true, showSystemUi = true)
@@ -130,7 +130,7 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
--------------------
+
 #### 10. Build a Preview: MainActivity.kt
 ```
 @Preview(showBackground = true, showSystemUi = true)
@@ -141,7 +141,6 @@ fun ReplyAppCompactPreview() {
     }
 }
 ```
--------------------
 
 Creditis and License
 --------------------
