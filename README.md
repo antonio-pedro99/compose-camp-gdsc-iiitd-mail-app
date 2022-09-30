@@ -30,6 +30,18 @@ Getting Started
 3. Import the sample into Android Studio.
 4. Build and run the sample.
 
+Implementing
+------------
+### 1. Build a Preview: MainActivity.kt
+```
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun ReplyAppCompactPreview() {
+    ReplyTheme {
+       ReplyApp(windowSize = WindowWidthSizeClass.Compact)
+    }
+}
+```
 Creditis and License
 --------------------
 We used this app for educational Purpose only. All rights are served by Google Developer Team.
