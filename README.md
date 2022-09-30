@@ -1,6 +1,11 @@
 Reply App - Solution Code
 =================================
-Solution code for the Android Basics with Compose: Reply app.
+Starter Code for Android Basic with Compose sample App - Replay
+
+
+Screenshot
+------------
+<img src="screenshots/Replay.png">
 
 Introduction
 ------------
