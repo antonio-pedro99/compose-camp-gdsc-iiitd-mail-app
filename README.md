@@ -5,7 +5,7 @@ Starter Code for Android Basic with Compose sample App - Replay
 
 Screenshot
 ------------
-![Reply](https://user-images.githubusercontent.com/42675180/193270746-9a7405cf-87c1-49be-8982-83274a5b2be8.png)
+<img src="screenshots/Replay.png">
 
 Introduction
 ------------
