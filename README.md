@@ -5,7 +5,7 @@ Starter Code for Android Basic with Compose sample App - Replay
 
 Screenshot
 ------------
-<img src="screenshots/Replay.png">
+<img src="screenshots/replau.gif">
 
 Introduction
 ------------
