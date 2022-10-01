@@ -58,6 +58,7 @@ fun ReplyApp(
             viewModel.updateCurrentMailbox(mailboxType = mailboxType)
             viewModel.resetHomeScreenStates()
         },
+
         onEmailCardPressed = { email: Email ->
             viewModel.updateDetailsScreenStates(
                 email = email

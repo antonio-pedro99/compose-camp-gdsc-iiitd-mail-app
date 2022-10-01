@@ -21,6 +21,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.material3.Text
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
@@ -44,40 +47,17 @@ class MainActivity : ComponentActivity() {
             ReplyTheme {
                 val windowSize = calculateWindowSizeClass(this)
 
-                ReplyApp(
-                    windowSize = windowSize.widthSizeClass,
-                )
+                //2. Set AppContent
+                
+                ReplyApp(windowSize = windowSize.widthSizeClass)
+
             }
         }
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-fun ReplyAppCompactPreview() {
-    ReplyTheme {
-        ReplyApp(
-            windowSize = WindowWidthSizeClass.Compact,
-        )
-    }
-}
 
-@Preview(showBackground = true, widthDp = 700)
-@Composable
-fun ReplyAppMediumPreview() {
-    ReplyTheme {
-        ReplyApp(
-            windowSize = WindowWidthSizeClass.Medium,
-        )
-    }
-}
+//1. Build a Preview
 
-@Preview(showBackground = true, widthDp = 1000)
-@Composable
-fun ReplyAppExpandedPreview() {
-    ReplyTheme {
-        ReplyApp(
-            windowSize = WindowWidthSizeClass.Expanded,
-        )
-    }
-}
+
+

@@ -172,17 +172,17 @@ private fun ReplyAppContent(
                 .background(MaterialTheme.colorScheme.inverseOnSurface)
         ) {
             if (contentType == ReplyContentType.LIST_AND_DETAIL) {
-                ReplyListAndDetailContent(
+               ReplyListAndDetailContent(
                     replyUiState = replyUiState,
                     onEmailCardPressed = onEmailCardPressed,
-                    modifier = Modifier.weight(1f),
-                )
+                   modifier = Modifier.weight(1f),
+               )
             } else {
-                ReplyListOnlyContent(
-                    replyUiState = replyUiState,
-                    onEmailCardPressed = onEmailCardPressed,
-                    modifier = Modifier.weight(1f)
-                )
+//                ReplyListOnlyContent(
+//                    replyUiState = replyUiState,
+//                    onEmailCardPressed = onEmailCardPressed,
+//                    modifier = Modifier.weight(1f)
+//                )
             }
             AnimatedVisibility(visible = navigationType == ReplyNavigationType.BOTTOM_NAVIGATION) {
                 val bottomNavigationContentDescription = stringResource(R.string.navigation_bottom)
@@ -301,13 +301,13 @@ private fun NavigationDrawerHeader(modifier: Modifier) {
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        ReplyLogo(modifier = Modifier.size(48.dp))
-        ReplyProfileImage(
-            drawableResource = LocalAccountsDataProvider.userAccount.avatar,
-            description = stringResource(id = R.string.profile),
-            modifier = Modifier
-                .size(28.dp)
-        )
+//        ReplyLogo(modifier = Modifier.size(48.dp))
+//        ReplyProfileImage(
+//            drawableResource = LocalAccountsDataProvider.userAccount.avatar,
+//            description = stringResource(id = R.string.profile),
+//            modifier = Modifier
+//                .size(28.dp)
+//        )
     }
 }
 
