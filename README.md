@@ -9,7 +9,7 @@ Starter Code for Android Basic with Compose sample App - Replay
 
 <img src="screenshots/medium_and_large_display.png">
 
-<img src="screenshots/medium_and_large_display.png">
+<img src="screenshots/preview.png">
 Introduction
 ------------
 The Reply app is a simple email client that display various categories of your
