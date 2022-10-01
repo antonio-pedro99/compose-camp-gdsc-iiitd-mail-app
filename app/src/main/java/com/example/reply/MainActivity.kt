@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
 
                 //2. Set AppContent
                 
-                ReplyApp(windowSize = windowSize.widthSizeClass)
+
 
             }
         }
